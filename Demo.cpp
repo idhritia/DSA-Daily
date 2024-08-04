@@ -82,8 +82,6 @@ int main() {
         cin >> value >> base;
         if (base == 0) base = 10;
         cout << "Result: " << calc.logarithm(value, base) << endl;
-    } else {
-        cout << "Invalid operator!" << endl;
     }
 
     return 0;
